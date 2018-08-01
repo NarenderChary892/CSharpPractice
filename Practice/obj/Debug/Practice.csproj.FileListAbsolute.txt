@@ -1,0 +1,52 @@
+C:\Users\Sathia Moorthy\source\repos\Practice\Practice\bin\Debug\Practice.exe.config
+C:\Users\Sathia Moorthy\source\repos\Practice\Practice\bin\Debug\Practice.exe
+C:\Users\Sathia Moorthy\source\repos\Practice\Practice\bin\Debug\Practice.pdb
+C:\Users\Sathia Moorthy\source\repos\Practice\Practice\bin\Debug\PdfSharp.Charting.dll
+C:\Users\Sathia Moorthy\source\repos\Practice\Practice\bin\Debug\PdfSharp.dll
+C:\Users\Sathia Moorthy\source\repos\Practice\Practice\bin\Debug\PdfSharp.xml
+C:\Users\Sathia Moorthy\source\repos\Practice\Practice\bin\Debug\PdfSharp.Charting.xml
+C:\Users\Sathia Moorthy\source\repos\Practice\Practice\bin\Debug\de\PdfSharp.resources.dll
+C:\Users\Sathia Moorthy\source\repos\Practice\Practice\bin\Debug\de\PdfSharp.Charting.resources.dll
+C:\Users\Sathia Moorthy\source\repos\Practice\Practice\obj\Debug\Practice.csproj.CoreCompileInputs.cache
+C:\Users\Sathia Moorthy\source\repos\Practice\Practice\obj\Debug\Practice.csproj.CopyComplete
+C:\Users\Sathia Moorthy\source\repos\Practice\Practice\obj\Debug\Practice.exe
+C:\Users\Sathia Moorthy\source\repos\Practice\Practice\obj\Debug\Practice.pdb
+C:\Users\Sathia Moorthy\source\repos\Practice\Practice\obj\Debug\Practice.csprojAssemblyReference.cache
+C:\Users\Sathia Moorthy\source\repos\Practice\Practice\obj\Debug\Practice.exe.config
+C:\Users\Sathia Moorthy\source\repos\Practice\Practice\bin\Debug\Configit.ControlManager.dll
+C:\Users\Sathia Moorthy\source\repos\Practice\Practice\bin\Debug\Configit.Runtime.dll
+C:\Users\Sathia Moorthy\source\repos\Practice\Practice\bin\Debug\Configit.Base.dll
+C:\Users\Sathia Moorthy\source\repos\Practice\Practice\bin\Debug\Configit.Calculation.dll
+C:\Users\Sathia Moorthy\source\repos\Practice\Practice\bin\Debug\Configit.SAP.dll
+C:\Users\Sathia Moorthy\source\repos\Practice\Practice\bin\Debug\Configit.Base.Data.dll
+C:\Users\Sathia Moorthy\source\repos\Practice\Practice\bin\Debug\Security.Cryptography.dll
+C:\Users\Sathia Moorthy\source\repos\Practice\Practice\bin\Debug\Ionic.Zip.Reduced.dll
+C:\Users\Operations01\source\repos\Practice\Practice\bin\Debug\Practice.exe.config
+C:\Users\Operations01\source\repos\Practice\Practice\bin\Debug\Practice.exe
+C:\Users\Operations01\source\repos\Practice\Practice\bin\Debug\Practice.pdb
+C:\Users\Operations01\source\repos\Practice\Practice\bin\Debug\Configit.ControlManager.dll
+C:\Users\Operations01\source\repos\Practice\Practice\bin\Debug\Configit.Runtime.dll
+C:\Users\Operations01\source\repos\Practice\Practice\bin\Debug\PdfSharp.Charting.dll
+C:\Users\Operations01\source\repos\Practice\Practice\bin\Debug\PdfSharp.dll
+C:\Users\Operations01\source\repos\Practice\Practice\bin\Debug\Configit.Base.dll
+C:\Users\Operations01\source\repos\Practice\Practice\bin\Debug\Configit.Calculation.dll
+C:\Users\Operations01\source\repos\Practice\Practice\bin\Debug\Configit.SAP.dll
+C:\Users\Operations01\source\repos\Practice\Practice\bin\Debug\Configit.Base.Data.dll
+C:\Users\Operations01\source\repos\Practice\Practice\bin\Debug\Security.Cryptography.dll
+C:\Users\Operations01\source\repos\Practice\Practice\bin\Debug\Ionic.Zip.Reduced.dll
+C:\Users\Operations01\source\repos\Practice\Practice\bin\Debug\PdfSharp.xml
+C:\Users\Operations01\source\repos\Practice\Practice\bin\Debug\PdfSharp.Charting.xml
+C:\Users\Operations01\source\repos\Practice\Practice\bin\Debug\de\PdfSharp.resources.dll
+C:\Users\Operations01\source\repos\Practice\Practice\bin\Debug\de\PdfSharp.Charting.resources.dll
+C:\Users\Operations01\source\repos\Practice\Practice\obj\Debug\Practice.csprojAssemblyReference.cache
+C:\Users\Operations01\source\repos\Practice\Practice\obj\Debug\Practice.exe.config
+C:\Users\Operations01\source\repos\Practice\Practice\obj\Debug\Practice.csproj.CoreCompileInputs.cache
+C:\Users\Operations01\source\repos\Practice\Practice\obj\Debug\Practice.csproj.CopyComplete
+C:\Users\Operations01\source\repos\Practice\Practice\obj\Debug\Practice.exe
+C:\Users\Operations01\source\repos\Practice\Practice\obj\Debug\Practice.pdb
+C:\Users\Operations01\source\repos\MyPractice\CSharpPractice\Practice\bin\Debug\Practice.exe.config
+C:\Users\Operations01\source\repos\MyPractice\CSharpPractice\Practice\bin\Debug\Practice.exe
+C:\Users\Operations01\source\repos\MyPractice\CSharpPractice\Practice\bin\Debug\Practice.pdb
+C:\Users\Operations01\source\repos\MyPractice\CSharpPractice\Practice\obj\Debug\Practice.csproj.CoreCompileInputs.cache
+C:\Users\Operations01\source\repos\MyPractice\CSharpPractice\Practice\obj\Debug\Practice.exe
+C:\Users\Operations01\source\repos\MyPractice\CSharpPractice\Practice\obj\Debug\Practice.pdb
