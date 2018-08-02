@@ -15,6 +15,7 @@ using Practice.Polymorphism;
 using Practice.Enum.Enum2;
 using Practice.EmailVerification;
 using Practice.MethodOverrideHiding;
+using Practice.Generics;
 
 namespace Practice
 {
@@ -69,6 +70,14 @@ namespace Practice
             //Method Hiding & Override
             MainClass mainClass = new MainClass();
             mainClass.GetMethods();
+
+
+            // Generics
+            GenericsUsage gen = new GenericsUsage();
+            GenericsUsage.GetGenerics();
+
+
+
 
 
             Console.ReadKey();

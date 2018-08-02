@@ -50,3 +50,10 @@ C:\Users\Operations01\source\repos\MyPractice\CSharpPractice\Practice\bin\Debug\
 C:\Users\Operations01\source\repos\MyPractice\CSharpPractice\Practice\obj\Debug\Practice.csproj.CoreCompileInputs.cache
 C:\Users\Operations01\source\repos\MyPractice\CSharpPractice\Practice\obj\Debug\Practice.exe
 C:\Users\Operations01\source\repos\MyPractice\CSharpPractice\Practice\obj\Debug\Practice.pdb
+C:\Users\Operations01\source\repos\CSharpLearning\CSharpPractice\Practice\bin\Debug\Practice.exe.config
+C:\Users\Operations01\source\repos\CSharpLearning\CSharpPractice\Practice\bin\Debug\Practice.exe
+C:\Users\Operations01\source\repos\CSharpLearning\CSharpPractice\Practice\bin\Debug\Practice.pdb
+C:\Users\Operations01\source\repos\CSharpLearning\CSharpPractice\Practice\obj\Debug\Practice.csprojAssemblyReference.cache
+C:\Users\Operations01\source\repos\CSharpLearning\CSharpPractice\Practice\obj\Debug\Practice.csproj.CoreCompileInputs.cache
+C:\Users\Operations01\source\repos\CSharpLearning\CSharpPractice\Practice\obj\Debug\Practice.exe
+C:\Users\Operations01\source\repos\CSharpLearning\CSharpPractice\Practice\obj\Debug\Practice.pdb

@@ -49,6 +49,8 @@
     <Compile Include="Enum\Enum2\GenderEnumValues.cs" />
     <Compile Include="Enum\Enum2\GenderAssign.cs" />
     <Compile Include="Enum\Weeks.cs" />
+    <Compile Include="Generics\Calculator.cs" />
+    <Compile Include="Generics\GenericsUsage.cs" />
     <Compile Include="ImplicitExplicit\ImplicitEx.cs" />
     <Compile Include="Inheritance\Employee.cs" />
     <Compile Include="Inheritance\FullTimeDetails.cs" />
