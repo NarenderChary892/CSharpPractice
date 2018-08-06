@@ -43,6 +43,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Constructors\Names.cs" />
+    <Compile Include="CSVReader\CsvValueProvider.cs" />
+    <Compile Include="Dictionaries\ArrayToDictionary.cs" />
+    <Compile Include="Dictionaries\Customer.cs" />
+    <Compile Include="Dictionaries\CustomerInfo.cs" />
+    <Compile Include="DictionaryOverList\Country.cs" />
+    <Compile Include="DictionaryOverList\CountryDetailsUsingDictionary.cs" />
     <Compile Include="EmailVerification\EmailSender.cs" />
     <Compile Include="Enum\Enum2\EmployeeMainClass.cs" />
     <Compile Include="Enum\Enum2\Employee.cs" />
@@ -58,6 +64,13 @@
     <Compile Include="Inheritance\PartTimeDetails.cs" />
     <Compile Include="Inheritance\PartTimeEmployee.cs" />
     <Compile Include="Interface\SumClass.cs" />
+    <Compile Include="List\ArrToList.cs" />
+    <Compile Include="List\NewEx\NewCustomer.cs" />
+    <Compile Include="List\NewEx\NewCustomerInfo.cs" />
+    <Compile Include="List\Sorting\Alphabets.cs" />
+    <Compile Include="List\Sorting\Numbers.cs" />
+    <Compile Include="List\Student.cs" />
+    <Compile Include="List\StudentInfo.cs" />
     <Compile Include="MethodOverrideHiding\BaseClass.cs" />
     <Compile Include="MethodOverrideHiding\HidingClass.cs" />
     <Compile Include="MethodOverrideHiding\MainClass.cs" />
@@ -71,12 +84,15 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StaticInstance\Circle.cs" />
     <Compile Include="StaticInstance\Circle1.cs" />
+    <Compile Include="ToStringEqualMethods\GetStudent.cs" />
+    <Compile Include="ToStringEqualMethods\Student.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DictionaryOverList\CountryDetailsUsingList.cs" />
     <Content Include="EmailVerification\email_template.html" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

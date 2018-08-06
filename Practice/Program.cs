@@ -16,6 +16,11 @@ using Practice.Enum.Enum2;
 using Practice.EmailVerification;
 using Practice.MethodOverrideHiding;
 using Practice.Generics;
+using Practice.Dictionaries;
+using Practice.List;
+using Practice.List.NewEx;
+using Practice.List.Sorting;
+using Practice.DictionaryOverList;
 
 namespace Practice
 {
@@ -77,8 +82,36 @@ namespace Practice
             GenericsUsage.GetGenerics();
 
 
+            //Dictionaries
+            CustomerInfo cust = new CustomerInfo();
+            cust.GetCustomerInfo();
+            ArrayToDictionary ArrToDict = new ArrayToDictionary();
+            ArrToDict.ArrayToDict();
+
+            // List
+            StudentInfo studentInfo = new StudentInfo();
+            studentInfo.GetStudentInfo();
+
+            ArrToList arrToList = new ArrToList();
+            arrToList.GetArrToList();
 
 
+            NewCustomerInfo customerInfo = new NewCustomerInfo();
+            customerInfo.GetCustomerInfo();
+
+            //Sorting
+            Numbers numbers = new Numbers();
+            numbers.GetNumbersSorting();
+
+            Alphabets alpha = new Alphabets();
+            alpha.GetAlphabetsSorting();
+
+            // DictionaryOverList
+            CountryDetailsUsingList countryDetails = new CountryDetailsUsingList();
+           // countryDetails.GetCountryDetailsUsingList();
+
+            CountryDetailsUsingDictionary countryDetailsUsingDictionary = new CountryDetailsUsingDictionary();
+            //countryDetailsUsingDictionary.GetCountryDetailsUsingDictionary();
 
             Console.ReadKey();
         }
