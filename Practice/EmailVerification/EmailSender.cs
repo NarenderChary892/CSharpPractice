@@ -20,7 +20,8 @@ namespace Practice.EmailVerification
                 string fileInfo = sr.ReadToEnd();
                 //string to ="narendercharyuppala@gmail.com";
                 string from = "narender.uppla@gmail.com";
-                string to = "narendercharyuppala@gmail.com";
+                //string to = "narendercharyuppala@gmail.com";
+                string to = "jayakanthanrs@gmail.com";
                 // string to = "narendercharyuppala@gmail.com";
                
 

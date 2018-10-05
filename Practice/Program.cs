@@ -21,6 +21,11 @@ using Practice.List;
 using Practice.List.NewEx;
 using Practice.List.Sorting;
 using Practice.DictionaryOverList;
+using Practice.CSVReader;
+using Practice.CSVReader.NewData;
+using Practice.WebScraping;
+using Practice.SearchingAlgo;
+using Practice.ExcelReader;
 
 namespace Practice
 {
@@ -29,89 +34,112 @@ namespace Practice
     {
         static void Main(string[] args)
         {
-            //ImplicitExplicit
-            ImplicitEx implicitEx = new ImplicitEx();
-            implicitEx.ImplicitMethod();
-            // implicitEx.lossOfData();
+      //      //ImplicitExplicit
+      //      ImplicitEx implicitEx = new ImplicitEx();
+      //      implicitEx.ImplicitMethod();
+      //      // implicitEx.lossOfData();
 
-            //Constructors
-            Names name = new Names("Narender", "Chary");
-            name.getFullname();
+      //      //Constructors
+      //      Names name = new Names("Narender", "Chary");
+      //      name.getFullname();
 
-            //Static Instance
-            Circle circle = new Circle(3);
-            circle.CalculateArea();
+      //      //Static Instance
+      //      Circle circle = new Circle(3);
+      //      circle.CalculateArea();
 
-            Circle1 circle1 = new Circle1(3);
-            circle1.CalculateArea1();
+      //      Circle1 circle1 = new Circle1(3);
+      //      circle1.CalculateArea1();
 
-            // Inheritance
-            FullTimeDetails emp = new FullTimeDetails();
-            emp.getFullTimeEmployeeDetails();
-            PartTimeDetails pt = new PartTimeDetails();
-            pt.getPartTimeEmployeeDetails();
+      //      // Inheritance
+      //      FullTimeDetails emp = new FullTimeDetails();
+      //      emp.getFullTimeEmployeeDetails();
+      //      PartTimeDetails pt = new PartTimeDetails();
+      //      pt.getPartTimeEmployeeDetails();
 
-            // Interface
-            SumClass sum = new SumClass();
-            sum.Print();
+      //      // Interface
+      //      SumClass sum = new SumClass();
+      //      sum.Print();
 
-            // Enum
-            Weeks weeks = new Weeks();
-            weeks.GetEnums();
+      //      // Enum
+      //      Weeks weeks = new Weeks();
+      //      weeks.GetEnums();
 
-            EmployeeMainClass employeeMainClass = new EmployeeMainClass();
-            employeeMainClass.GetEmployee();
+      //      EmployeeMainClass employeeMainClass = new EmployeeMainClass();
+      //      employeeMainClass.GetEmployee();
 
-            // Polymorphism
-            EmployeeDetails employeeDetails = new EmployeeDetails();
-            employeeDetails.GetEmployeeDetails();
-
-
-            // EmailVerification
-            //EmailSender email = new EmailSender ();
-            //email.SendEmail();
-            //email.SendEmail2();
-
-            //Method Hiding & Override
-            MainClass mainClass = new MainClass();
-            mainClass.GetMethods();
+      //      // Polymorphism
+      //      EmployeeDetails employeeDetails = new EmployeeDetails();
+      //      employeeDetails.GetEmployeeDetails();
 
 
-            // Generics
-            GenericsUsage gen = new GenericsUsage();
-            GenericsUsage.GetGenerics();
+      //      // EmailVerification
+      //      //EmailSender email = new EmailSender ();
+      //      //email.SendEmail();
+      //      //email.SendEmail2();
+
+      //      // CSV Reader
+      //      CsvReader csvReader = new CsvReader();
+      //      csvReader.GetCSVDetails();
+
+      //      ExcelDataReader excelDataReader = new ExcelDataReader();
+      //      excelDataReader.GetExcelData();
 
 
-            //Dictionaries
-            CustomerInfo cust = new CustomerInfo();
-            cust.GetCustomerInfo();
-            ArrayToDictionary ArrToDict = new ArrayToDictionary();
-            ArrToDict.ArrayToDict();
 
-            // List
-            StudentInfo studentInfo = new StudentInfo();
-            studentInfo.GetStudentInfo();
-
-            ArrToList arrToList = new ArrToList();
-            arrToList.GetArrToList();
+      //      //Method Hiding & Override
+      //      MainClass mainClass = new MainClass();
+      //      mainClass.GetMethods();
 
 
-            NewCustomerInfo customerInfo = new NewCustomerInfo();
-            customerInfo.GetCustomerInfo();
+      //      // Generics
+      //      GenericsUsage gen = new GenericsUsage();
+      //      GenericsUsage.GetGenerics();
 
-            //Sorting
-            Numbers numbers = new Numbers();
-            numbers.GetNumbersSorting();
 
-            Alphabets alpha = new Alphabets();
-            alpha.GetAlphabetsSorting();
+      //      //Dictionaries
+      //      CustomerInfo cust = new CustomerInfo();
+      //      cust.GetCustomerInfo();
+      //      ArrayToDictionary ArrToDict = new ArrayToDictionary();
+      //      ArrToDict.ArrayToDict();
 
-            // DictionaryOverList
-            CountryDetailsUsingList countryDetails = new CountryDetailsUsingList();
-           // countryDetails.GetCountryDetailsUsingList();
+      //      // List
+      //      StudentInfo studentInfo = new StudentInfo();
+      //      studentInfo.GetStudentInfo();
 
-            CountryDetailsUsingDictionary countryDetailsUsingDictionary = new CountryDetailsUsingDictionary();
-            //countryDetailsUsingDictionary.GetCountryDetailsUsingDictionary();
+      //      ArrToList arrToList = new ArrToList();
+      //      arrToList.GetArrToList();
+
+
+      //      NewCustomerInfo customerInfo = new NewCustomerInfo();
+      //      customerInfo.GetCustomerInfo();
+
+      //      //Sorting
+      //      Numbers numbers = new Numbers();
+      //      numbers.GetNumbersSorting();
+
+      //      Alphabets alpha = new Alphabets();
+      //      alpha.GetAlphabetsSorting();
+
+      //      // DictionaryOverList
+      //      CountryDetailsUsingList countryDetails = new CountryDetailsUsingList();
+      //     // countryDetails.GetCountryDetailsUsingList();
+
+      //      CountryDetailsUsingDictionary countryDetailsUsingDictionary = new CountryDetailsUsingDictionary();
+      ////countryDetailsUsingDictionary.GetCountryDetailsUsingDictionary();
+
+      // WebScraping
+      //WebScrap webScrap = new WebScrap();
+      //WebScrap.GetWebData();
+
+
+      // Searching Algorithm
+      // LinearSearch linear = new LinearSearch();
+      //linear.Linearsearch();
+
+      // Running Services status
+      ServiceStatus status = new ServiceStatus();
+      status.GetRunningServices();
+        
 
             Console.ReadKey();
         }
