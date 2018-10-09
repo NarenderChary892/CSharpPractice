@@ -1,6 +1,6 @@
 configuration : Debug
 
 before_build:
-  -nuget restore
+  Install-Package
 build:
   verbosity: minimal
