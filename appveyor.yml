@@ -12,11 +12,6 @@ skip_tags: false
 skip_non_tags: false
 clone_depth: 1
 
-
-# add required nuget references
-before_build:
-  # add reference for Configit Nuget Server
-  - ps: dotnet add package NuGet.VisualStudio --version 4.8.0
 # build
 build_script:
 - ps: ./build.ps1 -Target Build
