@@ -1,6 +1,6 @@
 configuration : Debug
 
 before_build:
-  Update-Package
+  dotnet add package Microsoft.Office.Interop.Excel --version 15.0.4795.1000
 build:
   verbosity: minimal
