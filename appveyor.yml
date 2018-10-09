@@ -1,6 +1,6 @@
 configuration : Debug
 
 before_build:
-  Install-Package
+  Update-Package
 build:
   verbosity: minimal
