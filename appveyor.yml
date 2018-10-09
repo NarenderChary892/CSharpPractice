@@ -1,6 +1,1 @@
-configuration : Debug
 
-before_build:
- Update-Package
-build:
-  verbosity: minimal
