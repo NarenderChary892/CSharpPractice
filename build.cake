@@ -94,6 +94,7 @@ Task( "RestoreOnly" )
     {
       foreach(var solution in solutions)
       {
+       Console.WriteLine("******************RESTORING THE "+ solution + " PORJECT**********************");
         NuGetRestore( solution );
       }
     });
