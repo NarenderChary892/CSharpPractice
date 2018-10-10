@@ -22,7 +22,7 @@ before_build:
 
   # add reference for Configit Nuget Server
 
-  - ps: - nuget restore
+  - nuget restore
   
 
 # build
