@@ -20,7 +20,7 @@ before_build:
 
   # add reference for Configit Nuget Server
 
-  - ps: nuget sources Add -ApiKey 0edp0d40ga2iked1w84t8n41 -Source https://ci.appveyor.com/nuget/narenderchary892-k43q4o13cfj5/api/v2/packag -UserName NarenderUppala892 -Password Neverg!veup
+  - ps: nuget sources Add -ApiKey 0edp0d40ga2iked1w84t8n41 -Source https://ci.appveyor.com/nuget/narenderchary892-k43q4o13cfj5/api/v2/packag -UserName NarenderChary892 -Password Neverg!veup
   
 
 # build
