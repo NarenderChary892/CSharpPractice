@@ -143,7 +143,7 @@ namespace Practice
 
       // Appveyor Testing
       AppVeyorTest appVeyor = new AppVeyorTest();
-      appVeyor.TestAppVeyor();
+      appVeyor.TestAppVeyor()
 
 
 
