@@ -12,8 +12,10 @@
  
 //var solution = "./CSharpPractice/Practice/Practice.csproj";
 //var solution ="C:/Users/Operations01/source/repos/CSharpLearning/CSharpPractice/Practice.sln";
-var solution = "./Practice.sln";
+var solutions = GetFiles("./**/*.sln");
+//var solution = "./Practice.sln";
 var ArtifactPath = System.Environment.CurrentDirectory + "/artifacts";
+var solutionPaths       = solutions.Select(solution => solution.GetDirectory());
 
 //////////////////////////////////////////////////////////////////////
 // ARGUMENTS
@@ -76,28 +78,32 @@ void SetupFromTag( string tag ) {
 // Clean
 Task( "Clean" )
     .Does( () =>
+    { 
+     foreach(var path in solutionPaths)
     {
-        foreach ( var dir in GetDirectories( "**/obj/*" ) ) {
-            CleanDirectory( dir );
-        }
-        foreach ( var dir in GetDirectories( "**/bin/*" ) ) {
-            CleanDirectory( dir );
-        }
-        CleanDirectory( ArtifactPath );
+        Information("Cleaning {0}", path);
+        CleanDirectories(path + "/**/bin/" + configuration);
+        CleanDirectories(path + "/**/obj/" + configuration);
+    }
+     
     });
 
 // RestoreOnly
 Task( "RestoreOnly" )
     .Does( () =>
     {
+      foreach(var solution in solutions)
+      {
         NuGetRestore( solution );
+      }
     });
 
 // BuildOnly
 Task( "BuildOnly" )
     .Does( () =>
     {
-
+      foreach(var solution in solutions)
+      {
         Information("Build solution");
         MSBuild( solution, settings =>
             settings
@@ -110,13 +116,15 @@ Task( "BuildOnly" )
                 .WithProperty( "VersionSuffix", suffix )
                 .WithProperty( "Commit", commit )
         );
-
+      }
     });
 
 // TestOnly
 Task( "TestOnly" )
     .Does( () =>
     {
+       foreach(var solution in solutions)
+       {
         var projects = GetFiles("./test/**/*.csproj");
         /*foreach(var project in projects)
         {
@@ -128,7 +136,7 @@ Task( "TestOnly" )
                     NoBuild = true
                 });
         }*/
-
+       }
     });
 
 //////////////////////////////////////////////////////////////////////
