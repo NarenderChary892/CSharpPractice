@@ -22,7 +22,7 @@ before_build:
 
   # add reference for Configit Nuget Server
 
-  - ps: Install-Package NuGet.VisualStudio -Version 4.8.0
+  - ps: Install-Package NuGet.VisualStudio -Version 4.6.2
   
 
 # build
