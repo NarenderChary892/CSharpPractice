@@ -28,7 +28,7 @@ before_build:
 
   # add reference for Configit Nuget Server
 
-  - ps: nuget sources Add -Name Configit -Source http://nuget.configit.com/nuget/Configit -UserName bob -Password $Env:ConfigitNuGetPassword
+  - ps: nuget sources Add -Name Configit -Source http://nuget.configit.com/nuget/Configit -UserName {bob} -Password {$Env:ConfigitNuGetPassword}
 
   
 
