@@ -26,6 +26,7 @@ using Practice.CSVReader.NewData;
 using Practice.WebScraping;
 using Practice.SearchingAlgo;
 using Practice.ExcelReader;
+using Practice.AppVeyorTesting;
 
 namespace Practice
 {
@@ -137,9 +138,14 @@ namespace Practice
       //linear.Linearsearch();
 
       // Running Services status
-      ServiceStatus status = new ServiceStatus();
-      status.GetRunningServices();
-        
+     // ServiceStatus status = new ServiceStatus();
+      //status.GetRunningServices();
+
+      // Appveyor Testing
+      AppVeyorTest appVeyor = new AppVeyorTest();
+      appVeyor.TestAppVeyor();
+
+
 
             Console.ReadKey();
         }
