@@ -14,13 +14,7 @@ branches:
 
 # set environment variables
 
-environment:
 
-  ConfigitNuGetPassword:
-
-    secure: izpoVw2TicdHmyR345magw==
-
-  
 
 # add required nuget references
 
@@ -28,8 +22,7 @@ before_build:
 
   # add reference for Configit Nuget Server
 
-  - ps: nuget sources Add -Name Configit -Source http://nuget.configit.com/nuget/Configit -UserName {bob} -Password {$Env:ConfigitNuGetPassword}
-
+  - ps: Install-Package NuGet.VisualStudio -Version 4.8.0
   
 
 # build
