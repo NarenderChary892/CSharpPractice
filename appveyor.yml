@@ -12,20 +12,6 @@ branches:
 
   - master # build pull requests on master
 
-  - Development # build Development
-
-
-
-force_https_clone: true
-
-skip_tags: false
-
-skip_non_tags: false
-
-clone_depth: 1
-
-
-
 # set environment variables
 
 environment:
