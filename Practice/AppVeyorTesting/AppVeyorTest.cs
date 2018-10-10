@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Practice.AppVeyorTesting {
   class AppVeyorTest {
-    public vodi TestAppVeyor() {
+    public void TestAppVeyor() {
       Console.WriteLine("This is a Sample AppVeyor Checking...");
     }
   }
