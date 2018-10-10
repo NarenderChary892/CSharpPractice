@@ -12,6 +12,28 @@ branches:
 
   - master # build pull requests on master
 
+  - Development # build Development
+
+
+
+force_https_clone: true
+
+skip_tags: false
+
+skip_non_tags: false
+
+clone_depth: 1
+
+
+
+# set environment variables
+
+environment:
+
+  ConfigitNuGetPassword:
+
+    secure: izpoVw2TicdHmyR345magw==
+
   
 
 # add required nuget references
@@ -20,7 +42,8 @@ before_build:
 
   # add reference for Configit Nuget Server
 
-  - ps: nuget sources Add -ApiKey 0edp0d40ga2iked1w84t8n41 -Source https://ci.appveyor.com/nuget/narenderchary892-k43q4o13cfj5/api/v2/packag -UserName NarenderChary892 -Password Neverg!veup
+  - ps: nuget sources Add -Name Configit -Source http://nuget.configit.com/nuget/Configit -UserName bob -Password $Env:ConfigitNuGetPassword
+
   
 
 # build
@@ -36,3 +59,12 @@ build_script:
 #test_script:
 
 #- ps: ./build.ps1 -Target TestOnly
+
+
+
+
+
+    
+
+      
+
