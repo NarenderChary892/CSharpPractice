@@ -10,7 +10,7 @@
 
 // foreach(var solution in ProjectSoltions){
  
-var solution = "./CSharpPractice/Practice.sln";
+var solution = "./CSharpPractice/Practice/Practice.csproj";
 //var solution ="C:/Users/Operations01/source/repos/CSharpLearning/CSharpPractice/Practice.sln";
 var ArtifactPath = System.Environment.CurrentDirectory + "/artifacts";
 
