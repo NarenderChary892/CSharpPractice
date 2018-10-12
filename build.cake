@@ -105,6 +105,7 @@ Task( "BuildOnly" )
     {
       foreach(var solution in solutions)
       {
+        Console.WriteLine("******************BUILDING THE "+ solution + " PORJECT**********************");
         Information("Build solution");
         MSBuild( solution, settings =>
             settings
