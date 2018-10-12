@@ -36,9 +36,9 @@ build_script:
 
 # test
 
-#test_script:
+test_script:
 
-#- ps: ./build.ps1 -Target TestOnly
+- ps: ./build.ps1 -Target TestOnly
 
 
 
