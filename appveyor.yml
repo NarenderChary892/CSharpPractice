@@ -36,8 +36,8 @@ build_script:
 
 # test
 
-test_script:
-- ps: ./build.ps1 -Target TestOnly
+#test_script:
+#- ps: ./build.ps1 -Target TestOnly
 test:
   # only assemblies to test
   assemblies:
