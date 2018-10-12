@@ -130,6 +130,10 @@ Task( "TestOnly" )
        foreach(var solution in solutions)
        {
         var projects = GetFiles("./test/**/*.csproj");
+         foreach(var project in projects){
+           Console.WriteLine(project); 
+         }
+        
         /*foreach(var project in projects)
         {
             DotNetCoreTest(
