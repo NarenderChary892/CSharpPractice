@@ -37,7 +37,11 @@ build_script:
 # test
 
 test_script:
-
+test:
+  # only assemblies to test
+  assemblies:
+    - HtmlAgilityPack.dll
+          
 - ps: ./build.ps1 -Target TestOnly
 
 
