@@ -13,8 +13,14 @@
 //var solution = "./CSharpPractice/Practice/Practice.csproj";
 //var solution ="C:/Users/Operations01/source/repos/CSharpLearning/CSharpPractice/Practice.sln";
 var solutions = GetFiles("./**/*.sln");
+var projects = GetFiles("./**/*.csproj");
+
 var slnCount = solutions.Count();
 Console.WriteLine("TOTAL SOLUTIONS::{0}", slnCount);
+
+var projCount = projects.Count();
+Console.WriteLine("TOTAL PROJECCTS: {0}", projCount);
+
 //var solution = "./Practice.sln";
 var ArtifactPath = System.Environment.CurrentDirectory + "/artifacts";
 var solutionPaths       = solutions.Select(solution => solution.GetDirectory());
