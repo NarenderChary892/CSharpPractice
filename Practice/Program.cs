@@ -147,7 +147,7 @@ namespace Practice
 
 
 
-            Console.ReadKey();
+            Console.ReadKey()
         }
 
     }
