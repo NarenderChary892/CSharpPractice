@@ -131,7 +131,7 @@ Task( "TestOnly" )
        {
         var projects = GetFiles("./test/**/*.csproj");
          foreach(var project in projects){
-           Console.WriteLine(project); 
+           Console.WriteLine("PROJECT NAME: {0}",project); 
          }
         
         /*foreach(var project in projects)
