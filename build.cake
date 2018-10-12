@@ -19,7 +19,7 @@ var slnCount = solutions.Count();
 Console.WriteLine("TOTAL SOLUTIONS::{0}", slnCount);
 
 var projCount = projects.Count();
-Console.WriteLine("TOTAL PROJECCTS: {0}", projCount);
+Console.WriteLine("TOTAL PROJECTS: {0}", projCount);
 
 //var solution = "./Practice.sln";
 var ArtifactPath = System.Environment.CurrentDirectory + "/artifacts";
@@ -133,24 +133,18 @@ Task( "BuildOnly" )
 Task( "TestOnly" )
     .Does( () =>
     {
-       foreach(var solution in solutions)
-       {
-        var projects = GetFiles("./test/**/*.csproj");
-         foreach(var project in projects){
-           Console.WriteLine("PROJECT NAME: {0}",project); 
-         }
-        
-        /*foreach(var project in projects)
+        foreach(var project in projects)
         {
-            DotNetCoreTest(
+           Console.WriteLine("PROJECT NAME: {0}",project); 
+          DotNetCoreTest(
                 project.FullPath,
                 new DotNetCoreTestSettings()
                 {
                     Configuration = configuration,
                     NoBuild = true
                 });
-        }*/
-       }
+         
+         }
     });
 
 //////////////////////////////////////////////////////////////////////
